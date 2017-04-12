@@ -2,7 +2,7 @@
 layout: post
 title: Ideia Inicial e Primeira Semana
 categories: [ideia, historia, apresentacao, primeira_semana]
-permalink: /:categories/:year/:month/:day/Ideia-Inicial-e-Primeira-Semana.html
+permalink: /:year/:month/:day/Ideia-Inicial-e-Primeira-Semana.html
 ---
 
 _Trapped in the Nightmare_ é um jogo em 3D proposto para a disciplina Animação e Jogos (COS600) da UFRJ, ministrada pelo professor Ricardo Marroquim para alunos de Engenharia de Computação e Informação e da Escola de Belas Artes.
