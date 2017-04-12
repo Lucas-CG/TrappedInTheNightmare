@@ -78,3 +78,8 @@ O esquema de controles atual é o seguinte:
 - Movimento do mouse - mirar arma/mover câmera
 
 - Clique esquerdo do mouse - Usar item/arma selecionado
+
+
+## O que foi feito na Primeira Semana
+
+Todo o enredo do jogo e os elementos haviam sido definidos antes. Durante a primeira semana, o grupo foi formado, o esquema de controles foi ajustado e chegou à forma colocada acima. Além disso, foi decidido que a câmera seria em primeira pessoa.
