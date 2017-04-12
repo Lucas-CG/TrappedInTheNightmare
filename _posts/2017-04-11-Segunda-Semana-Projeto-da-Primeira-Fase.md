@@ -14,6 +14,3 @@ Usamos o site mazegenerator.net para criar um labirinto aleatório com um tamanh
 
 Depois disso, foram traçados os caminhos até cada saída e indicadas as posições de cada número e mais alguns elementos, resultando no mapa abaixo:
 
-
-
-
