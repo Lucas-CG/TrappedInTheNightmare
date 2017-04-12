@@ -1,5 +1,5 @@
 ---
-title: Segunda Semana: Projeto da Primeira Fase
+title: Segunda Semana - Projeto da Primeira Fase
 categories: [projeto_de_fase, segunda_semana]
 permalink: /:year/:month/:day/Segunda-Semana-Projeto-da-Primeira-Fase.html
 ---
