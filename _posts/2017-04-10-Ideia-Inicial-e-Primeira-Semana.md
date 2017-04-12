@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ideia Inicial e Primeira Semana
 categories: [ideia, historia, apresentacao, primeira_semana]
 permalink: /:year/:month/:day/Ideia-Inicial-e-Primeira-Semana.html
