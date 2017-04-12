@@ -1,4 +1,3 @@
-2017-04-11-Terceira-Semana-Atualizacao-do-Projeto-da-Primeira-Fase.md
 ---
 title: Terceira Semana - Atualização do Projeto da Primeira Fase
 categories: [projeto_de_fase, terceira_semana]
