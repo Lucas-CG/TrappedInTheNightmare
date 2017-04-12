@@ -14,6 +14,11 @@ Usamos o site mazegenerator.net para criar um labirinto aleatório com um tamanh
 
 {% include image name="labirinto-jogo.jpg" caption="Mapa do labirinto apenas com as paredes. A entrada está na parte superior." %}
 
+<figure>
+    <img src="/TrappedInTheNightmare/assets/labirinto-jogo.jpg"  />
+    <figcaption>Mapa do labirinto apenas com as paredes. A entrada está na parte superior.</figcaption>
+</figure>
+
 Depois disso, foram traçados os caminhos até cada saída e indicadas as posições de cada número e mais alguns elementos, resultando no mapa abaixo:
 
 [Mapa do labirinto com os caminhos da entrada aos números, além das posições dos números e outros objetos de interesse que pensamos]({{ site.url }}/TrappedInTheNightmare/assets/labirinto-jogo-v1.jpg){:class="img-responsive"}
