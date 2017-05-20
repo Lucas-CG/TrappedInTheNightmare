@@ -174,3 +174,4 @@ Para demonstrar os outros elementos do jogo, usamos:
 
 Seguem abaixo algumas imagens dos elementos da fase:
 
+{% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto." %}
