@@ -188,3 +188,5 @@ Seguem abaixo algumas imagens dos elementos da fase:
 {% include image name="win.png" caption="GANHEI!" %}
 
 {% include image name="game_over.png" caption="Mas, na segunda vez, os coelhos foram fortes demais.” %}
+
+njnnnnn
