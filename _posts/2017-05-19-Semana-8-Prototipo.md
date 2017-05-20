@@ -177,3 +177,5 @@ Seguem abaixo algumas imagens dos elementos da fase:
 {% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto." %}
 
 {% include image name="numero_flutuante.png" caption="O número coletável." %}
+
+{% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre." %}
