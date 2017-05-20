@@ -150,6 +150,7 @@ Para essa demonstração, todos esses itens são exibidos desde o início do jog
 
 
 ## Fase de Demonstração
+
 Usando todos os elementos mencionados acima, criamos uma pequena fase de demonstração, seguindo as ideias que pensamos para a primeira fase do jogo final.
 
 Os eventos da *demo* ocorrem só em uma pequena parte do labirinto, como sinalizado no mapa abaixo:
