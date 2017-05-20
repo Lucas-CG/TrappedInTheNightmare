@@ -44,6 +44,9 @@ Esse *script* é referenciado por outros elementos do jogo:
 
 Foi aproveitada a arma do *Survival Shooter* e o som de tiro, mas retirando o seu modelo 3D. Ficamos com uma espécie de submetralhadora invisível, por enquanto.
 
+{% include image name="arma_destro.png" caption="Destro." %}
+
+{% include image name="arma_canhoto.png" caption="Canhoto." %}
 
 Como vemos nas duas imagens acima, a arma dispara “traços”, e, quando esses "traços" acertam o inimigo, ele toma dano (o que é sinalizado pela "fumaça" - ou pelúcia - saindo dele).
 
