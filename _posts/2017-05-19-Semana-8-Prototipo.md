@@ -152,7 +152,7 @@ Usando todos os elementos mencionados acima, criamos uma pequena fase de demonst
 
 Os eventos da *demo* ocorrem só em uma pequena parte do labirinto, como sinalizado no mapa abaixo:
 
-{% include image name="mapa_prototipo.jpeg" caption="O mapa do labirinto usado no protótipo. O labirinto inteiro foi sinalizado, mas apenas a parte limitada pelos riscos vermelhos foi usada na fase de demonstração, começando do ponto vermelho, que é onde o jogador inicia." %}
+{% include image name="mapa_prototipo.jpeg" caption="O mapa do labirinto usado no protótipo. O labirinto inteiro foi incluído no jogo, mas apenas a parte limitada pelos riscos vermelhos foi usada na fase de demonstração, começando do ponto vermelho, que é onde o jogador inicia." %}
 
 A ideia que tivemos para a primeira fase do jogo final é: o jogador inicia próximo à porta de saída e necessariamente passa por ela no seu caminho inicial, mas ela está bloqueada por um teclado numérico que necessita de um código. Nesse momento, o jogador descobre que precisa encontrar um código no labirinto, e ele explora o lugar para descobrir os números da combinação.
 
