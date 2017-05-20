@@ -9,7 +9,7 @@ Hoje foi a entrega do protótipo. Da semana anterior para essa, foram feitos vá
 
 ## Primeira Pessoa
 
-A câmera em primeira pessoa foi feita usando-se um recurso padrão disponível pela Unity, o *First Person Controller* que está disponível no pacote de *assets* chamado *Characters*.
+A câmera em primeira pessoa foi feita usando-se um recurso padrão disponível pela Unity, o *First Person Controller*, que está disponível no pacote de *assets* chamado *Characters*.
 
 O *First Person Controller* é um personagem em primeira pessoa já pronto integrado com a câmera. Os recursos que ele já possui são:
 
