@@ -179,3 +179,5 @@ Seguem abaixo algumas imagens dos elementos da fase:
 {% include image name="numero_flutuante.png" caption="O número coletável." %}
 
 {% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre." %}
+
+{% include image name="escadas.png" caption="Essas escadas indicam a vitória." %}
