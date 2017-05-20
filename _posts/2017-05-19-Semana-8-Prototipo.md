@@ -58,7 +58,7 @@ O funcionamento da arma, na verdade, se dá por cinco elementos:
 
 + Um sistema de partículas, que emite uma partícula amarela brilhante e imóvel no cano da arma no momento do disparo. Esse é o clarão do disparo no cano da arma, onde ele é mais forte.
 
-+ Um renderizador de linhas (*line renderer*) que renderiza uma linha amarela no momento do disparo que vai do cano da arma ao objeto atingido ou até o alcance máximo da arma. Essas são as balas que são visíveis nas imagens.
++ Um renderizador de linhas (ou *line renderer*) que renderiza uma linha amarela no momento do disparo que vai do cano da arma ao objeto atingido ou até o alcance máximo da arma. Essas são as balas que são visíveis nas imagens.
 
 + Um *raycaster*, que emite raios invisíveis para determinar se o inimigo foi atingido por um disparo ou não.
 
