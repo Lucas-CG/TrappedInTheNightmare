@@ -115,6 +115,7 @@ Portanto, foi necessário reaplicá-la no Unity. Uma imagem da textura e outra d
 
 {% include image name="textura.jpg" caption="A textura aplicada para o labirinto inteiro. Dá um efeito de parede suja para o cenário." %}
 
+{% include image name="labirinto_unity_com_textura.png" caption="O labirinto final usado no protótipo, com a textura e a iluminação. Os pontos coloridos são para o minimapa, e são explicados na sua seção." %}
 
 ### Iluminação
 
@@ -123,6 +124,7 @@ Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro d
 
 ## Interface Gráfica
 
+{% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa." %}
 
 ### Barra de Vida
 
