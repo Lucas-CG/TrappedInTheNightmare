@@ -25,10 +25,11 @@ Foi realizado o tutorial do Survival Shooter, localizado no site oficial da Unit
 - Física (colisão entre objetos e acionamento de “gatilhos”): útil para abrir portas e criar interações
 - Câmera
 - Interface gráfica básica, com textos, barra de vida e animações para o fim do jogo
+
 Uma foto do tutorial completo aberto na Unity se encontra abaixo:
 
 {% include image name="survival_shooter.png" caption="Imagem do tutorial completo do Survival Shooter." %}
 
 ## Projeto do Jogo na Unity
-O projeto do jogo final foi iniciado na Unity. Faremos uma adaptação do Survival Shooter feito anteriormente, aproveitando alguns dos seus recursos. Por enquanto, o personagem principal (com o modelo do tutorial) foi inserido no labirinto importado, e consegue se mover pelo ambiente. Foram criados pontos de surgimento para inimigos no ambiente, também. Para a fase inicial de integração do labirinto, falta adequar a IA (NavMesh) dos inimigos ao ambiente, limitando o alcance e considerando as paredes do labirinto.
+O projeto do jogo final foi iniciado na Unity. Faremos uma adaptação do Survival Shooter feito anteriormente, aproveitando alguns dos seus recursos. Por enquanto, o personagem principal (com o modelo do tutorial) foi inserido no labirinto importado, e consegue se mover pelo ambiente. Foram criados pontos de surgimento para inimigos no ambiente, também. Para a fase inicial de integração do labirinto, falta adequar a IA (NavMesh) dos inimigos ao ambiente, limitando o alcance e considerando as paredes do labirinto. E para a entrega do protótipo, falta programar implementações básicas das mecânicas do jogo.
 
