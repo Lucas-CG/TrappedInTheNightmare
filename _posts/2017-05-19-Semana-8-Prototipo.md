@@ -1,5 +1,5 @@
 ---
-title: Semana 8 – Protótipo!
+title: Semana 8 – Protótipo
 categories: [prototipo, mecanica, unity, oitava_semana]
 permalink: /:year/:month/:day/ Semanas-4-a-7-Maya-e-Unity.html
 ---
