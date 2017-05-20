@@ -1,7 +1,7 @@
 ---
 title: Semanas 4 a 7 – Labirinto modelado no Maya e Avanços na Unity
 categories: [projeto_de_fase, modelagem, unity, quarta_semana, quinta_semana, sexta_semana, setima_semana]
-permalink: /:year/:month/:day/ Semanas-4-a-7-Maya-e-Unity.html
+permalink: /:year/:month/:day/Semanas-4-a-7-Maya-e-Unity.html
 ---
 
 Durante essas 4 semanas, foram feitos alguns progressos:
