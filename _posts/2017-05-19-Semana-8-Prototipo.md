@@ -7,7 +7,6 @@ permalink: /:year/:month/:day/ Semanas-4-a-7-Maya-e-Unity.html
 Hoje foi a entrega do protótipo. Da semana anterior para essa, foram feitos vários progressos.
 
 
-
 ## Primeira Pessoa
 
 A câmera em primeira pessoa foi feita usando-se um recurso padrão disponível pela Unity, o *First Person Controller* que está disponível no pacote de *assets* chamado *Characters*.
@@ -50,10 +49,14 @@ Outra coisa que essa imagem mostra é que nosso personagem é ambidestro! Ele us
 
 O funcionamento da arma, na verdade, se dá por cinco elementos:
 
-+ Uma luz pontual, acionada no momento do disparo, que é o clarão do disparo no entorno do jogador;
-+ Um sistema de partículas, que emite uma partícula amarela brilhante e imóvel no cano da arma no momento do disparo. Esse é o clarão do disparo no cano da arma, onde ele é mais forte
++ Uma luz pontual, acionada no momento do disparo, que é o clarão do disparo no entorno do jogador.
+
++ Um sistema de partículas, que emite uma partícula amarela brilhante e imóvel no cano da arma no momento do disparo. Esse é o clarão do disparo no cano da arma, onde ele é mais forte.
+
 + Um renderizador de linhas (*line renderer*) que renderiza uma linha amarela no momento do disparo que vai do cano da arma ao objeto atingido ou até o alcance máximo da arma. Essas são as balas que são visíveis nas imagens.
+
 + Um *raycaster*, que emite raios invisíveis para determinar se o inimigo foi atingido por um disparo ou não.
+
 + Um *script* para controlar os quatro elementos acima. Quando um jogador clica no botão de atirar, o *script* emite o som da arma, aciona a luz da arma, emite a partícula e usa o *raycaster* para emitir um raio do cano da arma até o máximo do seu alcance. Se o raio colide com um inimigo, ele diminui a saúde do inimigo e usa o renderizador de linhas para criar uma linha da arma até o inimigo. E se nenhum inimigo for atingido, essa linha vai até o alcance máximo da arma. Depois dessas ações, a luz da arma e a linha da arma são desativadas e, durante um pequeno intervalo de tempo, não é possível atirar de novo. O tempo entre os disparos e o dano causado por eles é configurável, permitindo ajustar a cadência e o poder da arma.
 
 Na demonstração, a arma possui munição ilimitada, mas, no jogo final, a munição das armas será muito escassa, e o jogador não terá sempre uma arma.
@@ -87,7 +90,7 @@ Foi usado o mesmo mecanismo do *Survival Shooter*, para essa etapa. Ataques ocor
 
 Foi acoplada uma lanterna ao inimigo, de modo a dar uma indicação visual de que ele está atrás da parede. Essa é uma tentativa de criar um clima de suspense, dado que, no jogo final, o personagem terá recursos limitados e possivelmente não terá uma arma.
 
-{% include image name="dica_visual.png" caption="Uma luz... o que será que tem por trás da parede? O que fazer!?! %}
+{% include image name="dica_visual.png" caption="Uma luz... o que será que tem por trás da parede? O que fazer!?" %}
 
 
 ### Saúde
@@ -113,7 +116,7 @@ Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro d
 
 ## Interface Gráfica
 
-{% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa" %}
+{% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa." %}
 
 
 ### Barra de Vida
@@ -141,25 +144,32 @@ Os eventos da *demo* ocorrem só em uma pequena parte do labirinto, como sinaliz
 A ideia que tivemos para a primeira fase do jogo final é: o jogador inicia próximo à porta de saída e necessariamente passa por ela no seu caminho inicial, mas ela está bloqueada por um teclado numérico que necessita de um código. Nesse momento, o jogador descobre que precisa encontrar um código no labirinto, e ele explora o lugar para descobrir os números da combinação.
 
 Para esse protótipo, que foi mais focado em mecânicas básicas, reproduzimos essa ideia da seguinte forma:
+
 + O jogador precisa encontrar um número da combinação, apenas. Ele está como um objeto colecionável e flutuante.
+
 + Ao pegar esse objeto e se aproximar da porta, ela abre (é deletada), permitindo ao jogador chegar às escadas para o próximo andar.
 
 Para demonstrar os outros elementos do jogo, usamos:
+
 + 2 inimigos que estão por trás de paredes, no meio do caminho do jogador. Isso serve para demonstrar a dica visual, os inimigos e a arma do jogador.
+
++ 1 ponto de surgimento de inimigos um pouco atrás do local de início do jogador. Lá, surge 1 *Zombunny* a cada 10 segundos. Serve para testar mais o combate e a IA de movimentação dos inimigos.
+
 + Uma tela de *Game Over* que aparece quando o jogador morre.
+
 + Um efeito de clareamento da tela que acontece quando o jogador vence a fase (chega às escadas), junto com alguns aplausos.
 
 Seguem abaixo algumas imagens dos elementos da fase:
 
-{% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto. %}
+{% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto." %}
 
-{% include image name="numero_flutuante.png" caption="O número coletável. %}
+{% include image name="numero_flutuante.png" caption="O número coletável." %}
 
-{% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre. %}
+{% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre." %}
 
-{% include image name="escadas.png" caption="Essas escadas indicam a vitória.” %}
+{% include image name="escadas.png" caption="Essas escadas indicam a vitória." %}
 
-{% include image name="win.png" caption="GANHEI!” %}
+{% include image name="win.png" caption="GANHEI!" %}
 
 {% include image name="game_over.png" caption="Mas, na segunda vez, os coelhos foram fortes demais...” %}
 
