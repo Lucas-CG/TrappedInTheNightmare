@@ -44,9 +44,6 @@ Esse *script* é referenciado por outros elementos do jogo:
 
 Foi aproveitada a arma do *Survival Shooter* e o som de tiro, mas retirando o seu modelo 3D. Ficamos com uma espécie de submetralhadora invisível, por enquanto.
 
-{% include image name="arma_destro.png" caption="Destro." %}
-
-{% include image name="arma_canhoto.png" caption="Canhoto." %}
 
 Como vemos nas duas imagens acima, a arma dispara “traços”, e, quando esses "traços" acertam o inimigo, ele toma dano (o que é sinalizado pela "fumaça" - ou pelúcia - saindo dele).
 
@@ -74,7 +71,7 @@ Na demonstração, a arma possui munição ilimitada, mas, no jogo final, a muni
 
 Para o protótipo, foi usado o *Zombunny*, um coelho de pelúcia zumbi que já foi usado no *Survival Shooter*. Uma imagem dele está abaixo:
 
-{% include image name="zombunny.png" caption="Zombunny, nosso inimigo/mascote do protótipo." %}
+
 
 Para adicionar um efeito de pelúcia, no próprio tutorial foi criado um sistema de partículas, e essas partículas são disparadas quando ele recebe um tiro.
 
@@ -97,7 +94,6 @@ Foi usado o mesmo mecanismo do *Survival Shooter*, para essa etapa. Ataques ocor
 
 Foi acoplada uma lanterna ao inimigo, de modo a dar uma indicação visual de que ele está atrás da parede. Essa é uma tentativa de criar um clima de suspense, dado que, no jogo final, o personagem terá recursos limitados e possivelmente não terá uma arma.
 
-{% include image name="dica_visual.png" caption="Uma luz! O que tem atrás da parede?" %}
 
 
 ### Saúde
@@ -114,10 +110,6 @@ O tamanho do labirinto foi ajustado para ficar largo o suficiente, de modo que o
 
 Portanto, foi necessário reaplicá-la no Unity. Uma imagem da textura e outra do resultado final seguem abaixo:
 
-{% include image name="textura.jpg" caption="A textura aplicada para o labirinto inteiro. Dá um efeito de parede suja para o cenário." %}
-
-{% include image name="labirinto_unity_com_textura.png" caption="O labirinto final usado no protótipo, com a textura e a iluminação. Os pontos coloridos são para o minimapa, e são explicados na sua seção." %}
-
 
 ### Iluminação
 
@@ -125,8 +117,6 @@ Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro d
 
 
 ## Interface Gráfica
-
-{% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa." %}
 
 
 ### Barra de Vida
@@ -155,8 +145,6 @@ Usando todos os elementos mencionados acima, criamos uma pequena fase de demonst
 
 Os eventos da *demo* ocorrem só em uma pequena parte do labirinto, como sinalizado no mapa abaixo:
 
-{% include image name="mapa_prototipo.jpeg" caption="O mapa do labirinto usado no protótipo. O labirinto inteiro foi sinalizado, mas apenas a parte limitada pelos riscos vermelhos foi usada na fase de demonstração, começando do ponto vermelho, que é onde o jogador inicia." %}
-
 A ideia que tivemos para a primeira fase do jogo final é: o jogador inicia próximo à porta de saída e necessariamente passa por ela no seu caminho inicial, mas ela está bloqueada por um teclado numérico que necessita de um código. Nesse momento, o jogador descobre que precisa encontrar um código no labirinto, e ele explora o lugar para descobrir os números da combinação.
 
 Para esse protótipo, que foi mais focado em mecânicas básicas, reproduzimos essa ideia da seguinte forma:
@@ -176,16 +164,4 @@ Para demonstrar os outros elementos do jogo, usamos:
 + Um efeito de clareamento da tela que acontece quando o jogador vence a fase (chega às escadas), junto com alguns aplausos.
 
 Seguem abaixo algumas imagens dos elementos da fase:
-
-{% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto." %}
-
-{% include image name="numero_flutuante.png" caption="O número coletável." %}
-
-{% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre." %}
-
-{% include image name="escadas.png" caption="Essas escadas indicam a vitória." %}
-
-{% include image name="win.png" caption="GANHEI!" %}
-
-{% include image name="game_over.png" caption="Mas, na segunda vez, os coelhos foram fortes demais.” %}
 
