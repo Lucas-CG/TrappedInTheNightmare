@@ -14,7 +14,9 @@ A câmera em primeira pessoa foi feita usando-se um recurso padrão disponível 
 O *First Person Controller* é um personagem em primeira pessoa já pronto integrado com a câmera. Os recursos que ele já possui são:
 
 + Sons das batidas dos pés com o chão para qualquer movimento, que podem ser substituídos.
+
 + Andar, correr e pular, com velocidade e altura ajustáveis.
+
 + Um componente de física (*collider*) para que o personagem não atravesse por objetos.
 
 Ele não possui um modelo 3D integrado.
@@ -43,7 +45,7 @@ Foi aproveitada a arma do *Survival Shooter* e o som de tiro, mas retirando o se
 
 {% include image name="arma_canhoto.png" caption="Canhoto." %}
 
-Como vemos nas duas imagens acima, a arma dispara “traços”, e, quando esses “traços” acertam o inimigo, ele toma dano (o que é sinalizado pela “fumaça” - ou pelúcia - saindo dele).
+Como vemos nas duas imagens acima, a arma dispara “traços”, e, quando esses "traços" acertam o inimigo, ele toma dano (o que é sinalizado pela "fumaça" - ou pelúcia - saindo dele).
 
 Outra coisa que essa imagem mostra é que nosso personagem é ambidestro! Ele usa a arma com as duas mãos (ela muda aos poucos de lugar na tela à medida que o jogador vira a câmera).
 
