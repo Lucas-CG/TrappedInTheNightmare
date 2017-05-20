@@ -40,11 +40,13 @@ Esse *script* é referenciado por outros elementos do jogo:
 
 Foi aproveitada a arma do *Survival Shooter* e o som de tiro, mas retirando o seu modelo 3D. Ficamos com uma espécie de submetralhadora invisível, por enquanto.
 
-{% include image name="arma_destro.png" caption="Destro" %}
+{% include image name="arma_destro.png" caption="Destro." %}
 
-{% include image name="arma_canhoto.png" caption="Canhoto" %}
+{% include image name="arma_canhoto.png" caption="Canhoto." %}
 
 Como vemos nas duas imagens acima, a arma dispara “traços”, e, quando esses “traços” acertam o inimigo, ele toma dano (o que é sinalizado pela “fumaça” - ou pelúcia - saindo dele).
+
+Outra coisa que essa imagem mostra é que nosso personagem é ambidestro! Ele usa a arma com as duas mãos (ela muda aos poucos de lugar na tela à medida que o jogador vira a câmera).
 
 O funcionamento da arma, na verdade, se dá por cinco elementos:
 
@@ -100,9 +102,9 @@ O tamanho do labirinto foi ajustado para ficar largo o suficiente, de modo que o
 
 Portanto, foi necessário reaplicá-la no Unity. Uma imagem da textura e outra do resultado final seguem abaixo:
 
-{% include image name=textura.jpg" caption="A textura aplicada para o labirinto inteiro. Dá um efeito de parede suja para o cenário." %}
+{% include image name="textura.jpg" caption="A textura aplicada para o labirinto inteiro. Dá um efeito de parede suja para o cenário." %}
 
-{% include image name=labirinto_unity_com_textura.png" caption="O labirinto final usado no protótipo, com a textura e a iluminação. Os pontos coloridos são para o minimapa, e são explicados na sua seção." %}
+{% include image name="labirinto_unity_com_textura.png" caption="O labirinto final usado no protótipo, com a textura e a iluminação. Os pontos coloridos são para o minimapa, e são explicados na sua seção." %}
 
 
 ### Iluminação
@@ -111,7 +113,7 @@ Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro d
 
 ## Interface Gráfica
 
-{% include image name=”interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa" %}
+{% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa" %}
 
 
 ### Barra de Vida
@@ -134,7 +136,7 @@ Usando todos os elementos mencionados acima, criamos uma pequena fase de demonst
 
 Os eventos da *demo* ocorrem só em uma pequena parte do labirinto, como sinalizado no mapa abaixo:
 
-{% include image name=”mapa_prototipo.jpeg" caption="O mapa do labirinto usado no protótipo. O labirinto inteiro foi sinalizado, mas apenas a parte limitada pelos riscos vermelhos foi usada na fase de demonstração, começando do ponto vermelho, que é onde o jogador inicia. %}
+{% include image name="mapa_prototipo.jpeg" caption="O mapa do labirinto usado no protótipo. O labirinto inteiro foi sinalizado, mas apenas a parte limitada pelos riscos vermelhos foi usada na fase de demonstração, começando do ponto vermelho, que é onde o jogador inicia. %}
 
 A ideia que tivemos para a primeira fase do jogo final é: o jogador inicia próximo à porta de saída e necessariamente passa por ela no seu caminho inicial, mas ela está bloqueada por um teclado numérico que necessita de um código. Nesse momento, o jogador descobre que precisa encontrar um código no labirinto, e ele explora o lugar para descobrir os números da combinação.
 
@@ -148,16 +150,17 @@ Para demonstrar os outros elementos do jogo, usamos:
 + Um efeito de clareamento da tela que acontece quando o jogador vence a fase (chega às escadas), junto com alguns aplausos.
 
 Seguem abaixo algumas imagens dos elementos da fase:
-{% include image name=”porta_fechada.png" caption="A porta que esconde a saída do labirinto. %}
 
-{% include image name=”numero_flutuante.png" caption="O número coletável. %}
+{% include image name="porta_fechada.png" caption="A porta que esconde a saída do labirinto. %}
 
-{% include image name=”porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre. %}
+{% include image name="numero_flutuante.png" caption="O número coletável. %}
 
-{% include image name=”escadas.png" caption="Essas escadas indicam a vitória.” %}
+{% include image name="porta_aberta.png" caption="A porta aberta depois de descobrirmos o número que a abre. %}
 
-{% include image name=”win.png" caption="GANHEI!” %}
+{% include image name="escadas.png" caption="Essas escadas indicam a vitória.” %}
 
-{% include image name=”game_over.png" caption="Mas, na segunda vez, os coelhos foram fortes demais...” %}
+{% include image name="win.png" caption="GANHEI!” %}
+
+{% include image name="game_over.png" caption="Mas, na segunda vez, os coelhos foram fortes demais...” %}
 
 
