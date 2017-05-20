@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 7247544b95702bb4bb4eebb3eddfb72d
+timeCreated: 1495157327
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chair_chair
+    100004: chair_chair1
+    100006: chair_chair10
+    100008: chair_chair11
+    100010: chair_chair12
+    100012: chair_chair13
+    100014: chair_chair14
+    100016: chair_chair15
+    100018: chair_chair16
+    100020: chair_chair2
+    100022: chair_chair3
+    100024: chair_chair4
+    100026: chair_chair5
+    100028: chair_chair6
+    100030: chair_chair7
+    100032: chair_chair8
+    100034: chair_chair9
+    400000: //RootNode
+    400002: chair_chair
+    400004: chair_chair1
+    400006: chair_chair10
+    400008: chair_chair11
+    400010: chair_chair12
+    400012: chair_chair13
+    400014: chair_chair14
+    400016: chair_chair15
+    400018: chair_chair16
+    400020: chair_chair2
+    400022: chair_chair3
+    400024: chair_chair4
+    400026: chair_chair5
+    400028: chair_chair6
+    400030: chair_chair7
+    400032: chair_chair8
+    400034: chair_chair9
+    2300000: chair_chair
+    2300002: chair_chair1
+    2300004: chair_chair10
+    2300006: chair_chair11
+    2300008: chair_chair12
+    2300010: chair_chair13
+    2300012: chair_chair14
+    2300014: chair_chair15
+    2300016: chair_chair16
+    2300018: chair_chair2
+    2300020: chair_chair3
+    2300022: chair_chair4
+    2300024: chair_chair5
+    2300026: chair_chair6
+    2300028: chair_chair7
+    2300030: chair_chair8
+    2300032: chair_chair9
+    3300000: chair_chair
+    3300002: chair_chair1
+    3300004: chair_chair10
+    3300006: chair_chair11
+    3300008: chair_chair12
+    3300010: chair_chair13
+    3300012: chair_chair14
+    3300014: chair_chair15
+    3300016: chair_chair16
+    3300018: chair_chair2
+    3300020: chair_chair3
+    3300022: chair_chair4
+    3300024: chair_chair5
+    3300026: chair_chair6
+    3300028: chair_chair7
+    3300030: chair_chair8
+    3300032: chair_chair9
+    4300000: chair_chair
+    4300002: chair_chair1
+    4300004: chair_chair10
+    4300006: chair_chair11
+    4300008: chair_chair12
+    4300010: chair_chair13
+    4300012: chair_chair14
+    4300014: chair_chair15
+    4300016: chair_chair16
+    4300018: chair_chair2
+    4300020: chair_chair3
+    4300022: chair_chair4
+    4300024: chair_chair5
+    4300026: chair_chair6
+    4300028: chair_chair7
+    4300030: chair_chair8
+    4300032: chair_chair9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
