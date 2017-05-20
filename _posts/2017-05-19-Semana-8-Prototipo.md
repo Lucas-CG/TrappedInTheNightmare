@@ -19,7 +19,7 @@ O *First Person Controller* é um personagem em primeira pessoa já pronto integ
 
 + Um componente de física (*collider*) para que o personagem não atravesse por objetos.
 
-Ele não possui um modelo 3D integrado.
+Ele não possui um modelo 3D integrado, e nós ainda não atribuímos um ao nosso personagem. Portanto, ele é uma pessoa invisível, por enquanto.
 
 
 ## Personagem
