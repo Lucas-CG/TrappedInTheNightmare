@@ -74,7 +74,7 @@ Na demonstração, a arma possui munição ilimitada, mas, no jogo final, a muni
 
 Para o protótipo, foi usado o *Zombunny*, um coelho de pelúcia zumbi que já foi usado no *Survival Shooter*. Uma imagem dele está abaixo:
 
-
+{% include image name="zombunny.png" caption="Zombunny, nosso inimigo/mascote do protótipo." %}
 
 Para adicionar um efeito de pelúcia, no próprio tutorial foi criado um sistema de partículas, e essas partículas são disparadas quando ele recebe um tiro.
 
