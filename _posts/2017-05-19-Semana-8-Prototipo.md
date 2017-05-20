@@ -97,7 +97,7 @@ Foi usado o mesmo mecanismo do *Survival Shooter*, para essa etapa. Ataques ocor
 
 Foi acoplada uma lanterna ao inimigo, de modo a dar uma indicação visual de que ele está atrás da parede. Essa é uma tentativa de criar um clima de suspense, dado que, no jogo final, o personagem terá recursos limitados e possivelmente não terá uma arma.
 
-
+{% include image name="dica_visual.png" caption="Uma luz! O que tem atrás da parede?" %}
 
 ### Saúde
 
