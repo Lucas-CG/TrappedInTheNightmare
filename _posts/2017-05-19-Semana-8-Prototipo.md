@@ -34,8 +34,11 @@ Para implementar a saúde, foi usado um *script* criado no tutorial do *Survival
 Esse *script* é referenciado por outros elementos do jogo:
 
 + Uma barra de vida presente na interface gráfica, que monitora o valor da saúde continuamente.
+
 + Inimigos, para que os ataques deles possam diminuir a saúde do jogador.
+
 + Um *script* que gerencia o surgimento de inimigos, para que inimigos só surjam se o personagem ainda estiver vivo.
+
 
 ### Arma
 
@@ -66,6 +69,7 @@ Na demonstração, a arma possui munição ilimitada, mas, no jogo final, a muni
 
 ## Inimigos
 
+
 ### Modelo 3D
 
 Para o protótipo, foi usado o *Zombunny*, um coelho de pelúcia zumbi que já foi usado no *Survival Shooter*. Uma imagem dele está abaixo:
@@ -73,6 +77,7 @@ Para o protótipo, foi usado o *Zombunny*, um coelho de pelúcia zumbi que já f
 {% include image name="zombunny.png" caption="Zombunny, nosso inimigo/mascote do protótipo." %}
 
 Para adicionar um efeito de pelúcia, no próprio tutorial foi criado um sistema de partículas, e essas partículas são disparadas quando ele recebe um tiro.
+
 
 ### IA
 
@@ -99,7 +104,9 @@ Foi acoplada uma lanterna ao inimigo, de modo a dar uma indicação visual de qu
 
 Foi usado um *script* do *Survival Shooter*, que controla a saúde de inimigos e que, na morte, ativa uma animação de morte, faz o inimigo afundar no chão e o deleta após 2 segundos (evitando que inimigos mortos ocupem memória).
 
+
 ## Ambiente
+
 
 ### Labirinto
 
@@ -116,6 +123,7 @@ Portanto, foi necessário reaplicá-la no Unity. Uma imagem da textura e outra d
 
 Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro de cinza, para escurecer o ambiente e tentar aumentar a tensão. No jogo final, a ideia é que a iluminação não seja para o ambiente inteiro, e sim que o ambiente seja todo muito mal iluminado, com alguns locais com mais iluminação com lâmpadas quebradas.
 
+
 ## Interface Gráfica
 
 {% include image name="interface_grafica.png" caption="Interface gráfica do nosso protótipo. Câmera em primeira pessoa, barra de vida e minimapa." %}
@@ -125,16 +133,21 @@ Foi usada uma luz direcional emitida de cima do labirinto com um um tom escuro d
 
 A barra de vida usada é a mesma do tutorial do *Survival Shooter*, criada com um elemento básico de interface gráfica do Unity, um *slider*, que é uma barra de tamanho configurável que possui duas cores. Uma delas é de saúde e a outra de dano. Quando o personagem toma dano, a parte com cor de dano aumenta na barra e a parte com cor de saúde diminui.
 
+
 ### Minimapa
 
 O minimapa foi criado como uma câmera auxiliar, com uma visão panorâmica do ambiente do jogo. Como não usamos todo o labirinto, a visão dela é restrita a uma pequena parte dele. Para sinalizar os objetos de interesse, foram usadas esferas que emitem luzes coloridas que flutuam em cima desses objetos e os seguem. Essas esferas só podem ser vistas pela câmera do minimapa. Cada cor corresponde a um tipo de objeto:
 
 + Azul: jogador
+
 + Vermelho: inimigo
+
 + Dourado: item de interesse
+
 + Branco: saída do labirinto
 
 Para essa demonstração, todos esses itens são exibidos desde o início do jogo, mas, para o jogo final, a ideia é que eles só sejam exibidos quando forem descobertos pelo jogador. Além disso, no jogo final, a câmera do minimapa deve seguir o jogador para exibir o ambiente na sua redondeza que já entrou no seu campo de visão.
+
 
 ## Fase de Demonstração
 Usando todos os elementos mencionados acima, criamos uma pequena fase de demonstração, seguindo as ideias que pensamos para a primeira fase do jogo final.
