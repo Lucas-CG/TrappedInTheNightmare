@@ -1,5 +1,5 @@
 ---
-title: Semana 8 - Protótipo!
+title: Semana 8 - Protótipo
 categories: [prototipo, mecanica, unity, oitava_semana]
 permalink: /:year/:month/:day/Semana-8-Prototipo.html
 ---
