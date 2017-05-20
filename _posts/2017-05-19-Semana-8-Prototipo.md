@@ -113,6 +113,8 @@ O tamanho do labirinto foi ajustado para ficar largo o suficiente, de modo que o
 
 Portanto, foi necessário reaplicá-la no Unity. Uma imagem da textura e outra do resultado final seguem abaixo:
 
+{% include image name="textura.jpg" caption="A textura aplicada para o labirinto inteiro. Dá um efeito de parede suja para o cenário." %}
+
 
 ### Iluminação
 
