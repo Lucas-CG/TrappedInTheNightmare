@@ -1,7 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level 01.unity
-  isLoaded: 0
-  isActive: 0
 - path: Assets/Scenes/TITN Fase 1.unity
   isLoaded: 1
   isActive: 1
