@@ -10,7 +10,6 @@ public class PlayerShooting : MonoBehaviour
     float timer;
     Ray shootRay = new Ray();
     RaycastHit shootHit;
-    int shootableMask;
     ParticleSystem gunParticles;
     LineRenderer gunLine;
     AudioSource gunAudio;
@@ -20,7 +19,6 @@ public class PlayerShooting : MonoBehaviour
 
     void Awake ()
     {
-        shootableMask = LayerMask.GetMask ("Shootable");
         gunParticles = GetComponent<ParticleSystem> ();
         gunLine = GetComponent <LineRenderer> ();
         gunAudio = GetComponent<AudioSource> ();
@@ -68,18 +66,30 @@ public class PlayerShooting : MonoBehaviour
         shootRay.origin = transform.position;
         shootRay.direction = transform.forward;
 
-        if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
+        if (Physics.Raycast(shootRay, out shootHit, range))
         {
-            EnemyHealth enemyHealth = shootHit.collider.GetComponent <EnemyHealth> ();
-            if(enemyHealth != null)
-            {
-                enemyHealth.TakeDamage (damagePerShot, shootHit.point);
+            if (shootHit.collider.tag == "Shootable" || shootHit.collider.tag == "CodeDoor") {
+
+                EnemyHealth enemyHealth = shootHit.collider.GetComponent<EnemyHealth>();
+
+                if (enemyHealth != null)
+                {
+                    enemyHealth.TakeDamage(damagePerShot, shootHit.point);
+                }
+                gunLine.SetPosition(1, shootHit.point);
+
             }
-            gunLine.SetPosition (1, shootHit.point);
+
+            else
+            {
+                gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
+            }
         }
+
         else
         {
-            gunLine.SetPosition (1, shootRay.origin + shootRay.direction * range);
+            gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
         }
+
     }
 }

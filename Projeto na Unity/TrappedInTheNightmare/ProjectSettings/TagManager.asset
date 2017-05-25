@@ -8,6 +8,7 @@ TagManager:
   - CodeNumber
   - CodeDoor
   - LabyrinthExit
+  - Shootable
   layers:
   - Default
   - TransparentFX
@@ -18,11 +19,11 @@ TagManager:
   - 
   - 
   - Floor
-  - Shootable
+  - Flashlights
   - LightMask
   - Invisible
-  - MapEmission
-  - 
+  - Map
+  - Environment
   - 
   - 
   - 
