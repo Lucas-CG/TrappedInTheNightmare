@@ -103,7 +103,6 @@ GameObject:
   - component: {fileID: 33621947836159666}
   - component: {fileID: 135096931877309758}
   - component: {fileID: 23287934750893418}
-  - component: {fileID: 122544771489905240}
   m_Layer: 12
   m_Name: MapEmission
   m_TagString: Untagged
@@ -119,7 +118,7 @@ Transform:
   m_GameObject: {fileID: 1766150030712188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 4351020446903228}
   m_RootOrder: 1
@@ -229,7 +228,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4f6b9f4dcced6be498a0bcff04d57ecf, type: 2}
+  - {fileID: 2100000, guid: 6349edfed3ec48c4bb63973704b40294, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -519,7 +518,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294963199
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -783,17 +782,6 @@ LineRenderer:
     textureMode: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!122 &122544771489905240
-Halo:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1766150030712188}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4293535744
-  m_Size: 3
 --- !u!124 &124165059634729186
 Behaviour:
   m_ObjectHideFlags: 1
@@ -944,7 +932,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -822903115
+  randomSeed: -1108564386
   InitialModule:
     serializedVersion: 3
     enabled: 1

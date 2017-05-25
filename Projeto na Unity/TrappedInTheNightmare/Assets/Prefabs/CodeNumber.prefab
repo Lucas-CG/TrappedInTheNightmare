@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33460120427705228}
   - component: {fileID: 135257158471142752}
   - component: {fileID: 23542486884141940}
-  - component: {fileID: 122917412556332218}
   m_Layer: 12
   m_Name: MapEmission
   m_TagString: Untagged
@@ -90,7 +89,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4f6b9f4dcced6be498a0bcff04d57ecf, type: 2}
+  - {fileID: 2100000, guid: 73eb6865d60571c4a8b020a434b5bd58, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,17 +196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 094c67a72280fca4da11ee0f2b66a28e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!122 &122917412556332218
-Halo:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1199359883476700}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278236867
-  m_Size: 2
 --- !u!135 &135257158471142752
 SphereCollider:
   m_ObjectHideFlags: 1
