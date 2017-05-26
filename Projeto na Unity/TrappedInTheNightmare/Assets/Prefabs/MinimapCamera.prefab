@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 124535820371590420}
   - component: {fileID: 92066006971920916}
   - component: {fileID: 114767419675237162}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MinimapCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ Camera:
   m_GameObject: {fileID: 1602019386408296}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
