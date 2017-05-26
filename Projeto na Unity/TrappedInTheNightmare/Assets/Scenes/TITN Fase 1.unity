@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276813, g: 0.21589187, b: 0.29782563, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1134,12 +1134,12 @@ Prefab:
     - target: {fileID: 224997422003477724, guid: 2a2cb1bf53469fb4381ffc7c7fe4cd96,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224997422003477724, guid: 2a2cb1bf53469fb4381ffc7c7fe4cd96,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a2cb1bf53469fb4381ffc7c7fe4cd96, type: 2}
@@ -3823,42 +3823,6 @@ Prefab:
     - target: {fileID: 4601678454745802, guid: f47c796cb4757114098ea3d84d347611, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 108370441070055988, guid: f47c796cb4757114098ea3d84d347611,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.33088237
-      objectReference: {fileID: 0}
-    - target: {fileID: 108370441070055988, guid: f47c796cb4757114098ea3d84d347611,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.33088237
-      objectReference: {fileID: 0}
-    - target: {fileID: 108370441070055988, guid: f47c796cb4757114098ea3d84d347611,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.33088237
-      objectReference: {fileID: 0}
-    - target: {fileID: 108370441070055988, guid: f47c796cb4757114098ea3d84d347611,
-        type: 2}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4096
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377927120647148, guid: f47c796cb4757114098ea3d84d347611, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1377927120647148, guid: f47c796cb4757114098ea3d84d347611, type: 2}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 4601678454745802, guid: f47c796cb4757114098ea3d84d347611, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4601678454745802, guid: f47c796cb4757114098ea3d84d347611, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f47c796cb4757114098ea3d84d347611, type: 2}
