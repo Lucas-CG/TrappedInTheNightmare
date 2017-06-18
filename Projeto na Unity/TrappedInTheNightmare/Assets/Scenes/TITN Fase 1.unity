@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276813, g: 0.21589187, b: 0.29782552, a: 1}
+  m_IndirectSpecularColor: {r: 0.1727681, g: 0.21589208, b: 0.29782575, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -52,7 +52,7 @@ LightmapSettings:
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 8
     m_Resolution: 2
@@ -66,7 +66,7 @@ LightmapSettings:
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
+    m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
@@ -123,7 +123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3735709
 Transform:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -188,7 +188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10945463
 Transform:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -253,7 +253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &12311430
 Transform:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -361,7 +361,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -389,7 +389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &26725519
 Transform:
   m_ObjectHideFlags: 0
@@ -432,7 +432,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -454,7 +454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &42623681
 Transform:
   m_ObjectHideFlags: 0
@@ -497,7 +497,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -562,7 +562,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -584,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &76026309
 Transform:
   m_ObjectHideFlags: 0
@@ -627,7 +627,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -692,7 +692,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -714,7 +714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &80749997
 Transform:
   m_ObjectHideFlags: 0
@@ -757,7 +757,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -822,7 +822,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -844,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &100620840
 Transform:
   m_ObjectHideFlags: 0
@@ -887,7 +887,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -909,7 +909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &109214533
 Transform:
   m_ObjectHideFlags: 0
@@ -952,7 +952,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1017,7 +1017,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1082,7 +1082,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1147,7 +1147,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1212,7 +1212,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1361,7 +1361,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1477,7 +1477,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1542,7 +1542,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1607,7 +1607,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1672,7 +1672,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1737,7 +1737,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1802,7 +1802,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1867,7 +1867,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1889,7 +1889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &213795350
 Transform:
   m_ObjectHideFlags: 0
@@ -1932,7 +1932,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2019,7 +2019,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2084,7 +2084,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2218,7 +2218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &261144241
 Transform:
   m_ObjectHideFlags: 0
@@ -2261,7 +2261,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2283,7 +2283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &279356275
 Transform:
   m_ObjectHideFlags: 0
@@ -2326,7 +2326,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2348,7 +2348,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &283144872
 Transform:
   m_ObjectHideFlags: 0
@@ -2391,7 +2391,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2456,7 +2456,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2521,7 +2521,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2586,7 +2586,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2651,7 +2651,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2673,7 +2673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &295515265
 Transform:
   m_ObjectHideFlags: 0
@@ -2716,7 +2716,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2781,7 +2781,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2803,7 +2803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &321829101
 Transform:
   m_ObjectHideFlags: 0
@@ -2846,7 +2846,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2911,7 +2911,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2933,7 +2933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &357861494
 Transform:
   m_ObjectHideFlags: 0
@@ -2976,7 +2976,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3041,7 +3041,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3106,7 +3106,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3128,7 +3128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &382281553
 Transform:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3193,7 +3193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &394667280
 Transform:
   m_ObjectHideFlags: 0
@@ -3236,7 +3236,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3348,7 +3348,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3370,7 +3370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &430515127
 Transform:
   m_ObjectHideFlags: 0
@@ -3413,7 +3413,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3435,7 +3435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &439609010
 Transform:
   m_ObjectHideFlags: 0
@@ -3478,7 +3478,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3620,7 +3620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &485308228
 Transform:
   m_ObjectHideFlags: 0
@@ -3663,7 +3663,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3685,7 +3685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &514206898
 Transform:
   m_ObjectHideFlags: 0
@@ -3728,7 +3728,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3793,7 +3793,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3858,7 +3858,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3923,7 +3923,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3945,7 +3945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &527224788
 Transform:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4010,7 +4010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &547394806
 Transform:
   m_ObjectHideFlags: 0
@@ -4053,7 +4053,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4118,7 +4118,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4269,7 +4269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &583197635
 Transform:
   m_ObjectHideFlags: 0
@@ -4312,7 +4312,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4377,7 +4377,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4399,7 +4399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &597691414
 Transform:
   m_ObjectHideFlags: 0
@@ -4442,7 +4442,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4507,7 +4507,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4572,7 +4572,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4637,7 +4637,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4702,7 +4702,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4724,7 +4724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &657895870
 Transform:
   m_ObjectHideFlags: 0
@@ -4767,7 +4767,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4832,7 +4832,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4897,7 +4897,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4919,7 +4919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &681879652
 Transform:
   m_ObjectHideFlags: 0
@@ -4962,7 +4962,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4984,7 +4984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &688086244
 Transform:
   m_ObjectHideFlags: 0
@@ -5027,7 +5027,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5092,7 +5092,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5114,7 +5114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &714423142
 Transform:
   m_ObjectHideFlags: 0
@@ -5157,7 +5157,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5222,7 +5222,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5315,7 +5315,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5380,7 +5380,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5445,7 +5445,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5467,7 +5467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &782259232
 Transform:
   m_ObjectHideFlags: 0
@@ -5510,7 +5510,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5532,7 +5532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &783711400
 Transform:
   m_ObjectHideFlags: 0
@@ -5575,7 +5575,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5640,7 +5640,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5705,7 +5705,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5770,7 +5770,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5835,7 +5835,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5900,7 +5900,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5965,7 +5965,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6030,7 +6030,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6095,7 +6095,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6160,7 +6160,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6182,7 +6182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &855839755
 Transform:
   m_ObjectHideFlags: 0
@@ -6225,7 +6225,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6247,7 +6247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &858543557
 Transform:
   m_ObjectHideFlags: 0
@@ -6290,7 +6290,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6355,7 +6355,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6420,7 +6420,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6485,7 +6485,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6507,7 +6507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &877697243
 Transform:
   m_ObjectHideFlags: 0
@@ -6550,7 +6550,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6667,7 +6667,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6732,7 +6732,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6797,7 +6797,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6862,7 +6862,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6884,7 +6884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &904262923
 Transform:
   m_ObjectHideFlags: 0
@@ -6927,7 +6927,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6992,7 +6992,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7057,7 +7057,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7161,7 +7161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &932883772
 Transform:
   m_ObjectHideFlags: 0
@@ -7204,7 +7204,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7226,7 +7226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &943512788
 Transform:
   m_ObjectHideFlags: 0
@@ -7269,7 +7269,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7334,7 +7334,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7399,7 +7399,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7464,7 +7464,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7529,7 +7529,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7551,7 +7551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &958565378
 Animator:
   serializedVersion: 3
@@ -7642,7 +7642,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7664,7 +7664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &992534012
 Transform:
   m_ObjectHideFlags: 0
@@ -7707,7 +7707,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7772,7 +7772,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7794,7 +7794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1016196490
 Transform:
   m_ObjectHideFlags: 0
@@ -7837,7 +7837,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7902,7 +7902,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8032,7 +8032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1084406323
 Transform:
   m_ObjectHideFlags: 0
@@ -8075,7 +8075,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8140,7 +8140,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8205,7 +8205,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8270,7 +8270,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8292,7 +8292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1124574179
 Transform:
   m_ObjectHideFlags: 0
@@ -8335,7 +8335,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8400,7 +8400,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8422,7 +8422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1131413290
 Transform:
   m_ObjectHideFlags: 0
@@ -8465,7 +8465,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8530,7 +8530,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8595,7 +8595,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8617,7 +8617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1146546484
 Transform:
   m_ObjectHideFlags: 0
@@ -8660,7 +8660,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8725,7 +8725,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8790,7 +8790,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8883,7 +8883,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8905,7 +8905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1162900535
 Transform:
   m_ObjectHideFlags: 0
@@ -8948,7 +8948,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9013,7 +9013,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9162,7 +9162,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9292,7 +9292,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9314,7 +9314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1189912364
 Transform:
   m_ObjectHideFlags: 0
@@ -9357,7 +9357,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9422,7 +9422,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9444,7 +9444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1194979500
 Transform:
   m_ObjectHideFlags: 0
@@ -9487,7 +9487,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9552,7 +9552,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9617,7 +9617,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9718,7 +9718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1228908639
 Transform:
   m_ObjectHideFlags: 0
@@ -9761,7 +9761,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9841,7 +9841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1233829392
 Transform:
   m_ObjectHideFlags: 0
@@ -9884,7 +9884,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9949,7 +9949,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10014,7 +10014,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10079,7 +10079,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10144,7 +10144,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10209,7 +10209,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10274,7 +10274,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10339,7 +10339,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10361,7 +10361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1316090226
 Transform:
   m_ObjectHideFlags: 0
@@ -10404,7 +10404,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10469,7 +10469,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10491,7 +10491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1324484055
 Transform:
   m_ObjectHideFlags: 0
@@ -10534,7 +10534,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10685,7 +10685,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10750,7 +10750,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10815,7 +10815,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10880,7 +10880,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10902,7 +10902,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1375010362
 Transform:
   m_ObjectHideFlags: 0
@@ -10945,7 +10945,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11010,7 +11010,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11075,7 +11075,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11158,7 +11158,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11180,7 +11180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1417242986
 Transform:
   m_ObjectHideFlags: 0
@@ -11223,7 +11223,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11288,7 +11288,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11310,7 +11310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1422176478
 Transform:
   m_ObjectHideFlags: 0
@@ -11353,7 +11353,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11418,7 +11418,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11440,7 +11440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1436385931
 Transform:
   m_ObjectHideFlags: 0
@@ -11483,7 +11483,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11548,7 +11548,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11613,7 +11613,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11678,7 +11678,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11743,7 +11743,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11808,7 +11808,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11873,7 +11873,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11938,7 +11938,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12003,7 +12003,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12068,7 +12068,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12133,7 +12133,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12217,7 +12217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1531670227
 Transform:
   m_ObjectHideFlags: 0
@@ -12260,7 +12260,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12325,7 +12325,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12390,7 +12390,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12412,7 +12412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1543234290
 Transform:
   m_ObjectHideFlags: 0
@@ -12455,7 +12455,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12520,7 +12520,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12585,7 +12585,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12732,7 +12732,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12754,7 +12754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1623036028
 Transform:
   m_ObjectHideFlags: 0
@@ -12797,7 +12797,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12924,7 +12924,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12946,7 +12946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1687420379
 Transform:
   m_ObjectHideFlags: 0
@@ -12989,7 +12989,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13054,7 +13054,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13119,7 +13119,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13184,7 +13184,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13206,7 +13206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1711331576
 Transform:
   m_ObjectHideFlags: 0
@@ -13249,7 +13249,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13314,7 +13314,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13336,7 +13336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1716882616
 Transform:
   m_ObjectHideFlags: 0
@@ -13379,7 +13379,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13444,7 +13444,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13509,7 +13509,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13531,7 +13531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1756121386
 Transform:
   m_ObjectHideFlags: 0
@@ -13574,7 +13574,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13639,7 +13639,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13704,7 +13704,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13726,7 +13726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1792198627
 Transform:
   m_ObjectHideFlags: 0
@@ -13769,7 +13769,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13791,7 +13791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1802146378
 Transform:
   m_ObjectHideFlags: 0
@@ -13834,7 +13834,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13899,7 +13899,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13921,7 +13921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1815037598
 Transform:
   m_ObjectHideFlags: 0
@@ -13964,7 +13964,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14029,7 +14029,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14094,7 +14094,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14116,7 +14116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1854329895
 Transform:
   m_ObjectHideFlags: 0
@@ -14159,7 +14159,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14181,7 +14181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1862422718
 Transform:
   m_ObjectHideFlags: 0
@@ -14224,7 +14224,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14289,7 +14289,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14354,7 +14354,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14419,7 +14419,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14484,7 +14484,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14719,7 +14719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1929100436
 Transform:
   m_ObjectHideFlags: 0
@@ -14762,7 +14762,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14827,7 +14827,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14892,7 +14892,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14914,7 +14914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1964734036
 Transform:
   m_ObjectHideFlags: 0
@@ -14957,7 +14957,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15022,7 +15022,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15133,7 +15133,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15155,7 +15155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2062675757
 Transform:
   m_ObjectHideFlags: 0
@@ -15198,7 +15198,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15263,7 +15263,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15328,7 +15328,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15393,7 +15393,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15415,7 +15415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2084609786
 Transform:
   m_ObjectHideFlags: 0
@@ -15458,7 +15458,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15523,7 +15523,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15588,7 +15588,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15653,7 +15653,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15675,7 +15675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2144757186
 Transform:
   m_ObjectHideFlags: 0
@@ -15718,7 +15718,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
