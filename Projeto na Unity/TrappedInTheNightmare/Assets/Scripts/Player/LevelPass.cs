@@ -21,7 +21,6 @@ public class LevelPass : MonoBehaviour {
         if (other.gameObject.CompareTag("LabyrinthExit"))
         {
             passed = true;
-            fpsController.enabled = false;
             PlayWinSound();
         }
     }

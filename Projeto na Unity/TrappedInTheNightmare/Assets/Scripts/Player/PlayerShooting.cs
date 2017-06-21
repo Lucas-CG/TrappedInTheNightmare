@@ -3,8 +3,9 @@
 public class PlayerShooting : MonoBehaviour
 {
     public int damagePerShot = 20;
-    public float timeBetweenBullets = 0.15f;
+    public float timeBetweenBullets = 0.50f;
     public float range = 100f;
+    public float ammo = 5;
 
 
     float timer;
@@ -32,7 +33,7 @@ public class PlayerShooting : MonoBehaviour
 
 		if(Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0)
         {
-            Shoot ();
+            if (ammo > 0) Shoot ();
         }
 
         if(timer >= timeBetweenBullets * effectsDisplayTime)
@@ -90,6 +91,8 @@ public class PlayerShooting : MonoBehaviour
         {
             gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
         }
+
+        ammo--;
 
     }
 }
