@@ -66,6 +66,8 @@ public class EnemyHealth : MonoBehaviour
 
         enemyAudio.clip = deathClip;
         enemyAudio.Play ();
+
+        StartSinking();
     }
 
 
@@ -81,6 +83,8 @@ public class EnemyHealth : MonoBehaviour
 
         isSinking = true;
         ScoreManager.score += scoreValue;
+        
         Destroy (gameObject, 2f);
+        
     }
 }

@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     PlayerHealth playerHealth;
     EnemyHealth enemyHealth;
     UnityEngine.AI.NavMeshAgent nav;
+    Animator anim;
     public float range = 10.0f;
 	public float fieldOfViewRange; // in degrees (I use 68, this gives the enemy a vision of 136 degrees)
 	public float minPlayerDetectDistance; // the distance the player can come behind the enemy without being deteacted
@@ -22,6 +23,7 @@ public class EnemyMovement : MonoBehaviour
         enemyHealth = GetComponent <EnemyHealth> ();
         nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
         originPosition = transform.position;
+        anim = GetComponent<Animator>();
     }
 
 
@@ -32,16 +34,20 @@ public class EnemyMovement : MonoBehaviour
 		if(enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0 && distance < range && CanSeePlayer())
         {
             nav.SetDestination (player.position);
+            anim.SetTrigger("IsMoving");
         }
 
-		else if (enemyHealth.currentHealth > 0 && Vector3.Distance(transform.position ,originPosition) > 1)
+		else if (enemyHealth.currentHealth > 0 && Vector3.Distance(transform.position, originPosition) > 1)
         {
             nav.SetDestination(originPosition);
+            anim.SetTrigger("IsMoving");
         }
 
-        else
+        else if (enemyHealth.currentHealth > 0)
         {
-			transform.Rotate (Vector3.up * Time.deltaTime * 20, Space.World);
+            anim.SetTrigger("StoppedMoving");
+            transform.Rotate (Vector3.up * Time.deltaTime * 20, Space.World);
+
         }
     }
 		

@@ -146,7 +146,6 @@
     <Compile Include="Assets\Scripts\Player\CodeCatch.cs" />
     <Compile Include="Assets\Scripts\Player\LevelPass.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
