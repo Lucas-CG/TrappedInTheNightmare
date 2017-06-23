@@ -43,7 +43,7 @@ public class EnemyMovement : MonoBehaviour
             anim.SetTrigger("IsMoving");
         }
 
-        else if (enemyHealth.currentHealth > 0)
+        else if (enemyHealth.currentHealth > 0 && !CanSeePlayer())
         {
             anim.SetTrigger("StoppedMoving");
             transform.Rotate (Vector3.up * Time.deltaTime * 20, Space.World);

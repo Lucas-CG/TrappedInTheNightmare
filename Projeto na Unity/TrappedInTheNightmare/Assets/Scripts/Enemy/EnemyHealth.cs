@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour
     Animator anim;
     AudioSource enemyAudio;
     //ParticleSystem hitParticles;
-    CapsuleCollider capsuleCollider;
+    BoxCollider boxCollider;
     bool isDead;
     bool isSinking;
 
@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
         anim = GetComponent <Animator> ();
         enemyAudio = GetComponent <AudioSource> ();
         //hitParticles = GetComponentInChildren <ParticleSystem> ();
-        capsuleCollider = GetComponent <CapsuleCollider> ();
+        boxCollider = GetComponent <BoxCollider> ();
 
         currentHealth = startingHealth;
     }
@@ -60,7 +60,7 @@ public class EnemyHealth : MonoBehaviour
     {
         isDead = true;
 
-        capsuleCollider.isTrigger = true;
+        boxCollider.isTrigger = true;
 
         anim.SetTrigger ("Dead");
 
