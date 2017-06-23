@@ -4468,6 +4468,8 @@ MonoBehaviour:
   fieldOfViewRange: 68
   minPlayerDetectDistance: 2
   rayRange: 20
+  p1: {x: -15, y: 0.68, z: -148.06}
+  p2: {x: 15, y: 0.68, z: -168}
 --- !u!114 &572436272
 MonoBehaviour:
   m_ObjectHideFlags: 0
