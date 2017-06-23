@@ -90,8 +90,8 @@ public class EnemyAttack : MonoBehaviour
         if(playerHealth.currentHealth > 0)
         {
             playerHealth.TakeDamage (attackDamage);
-            float distance = Vector3.Distance(transform.position, player.transform.position);
             Vector3 difference = transform.position - player.transform.position;
+            difference.y = 0;
             playerRigidbody.AddForce(difference * attackForce);
         }
     }

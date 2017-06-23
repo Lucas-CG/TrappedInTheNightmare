@@ -4,12 +4,15 @@ using UnityEngine.SceneManagement;
 public class GameOverManager : MonoBehaviour
 {
     public UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsController;
+    public GameObject backgroundMusic;
+    public AudioClip timeIsUpClip;
     private PlayerHealth playerHealth;
     private LevelPass levelPass;
     public float restartDelay = 1f;
     Animator anim;
     float restartTimer;
     private TimerManager timerManager;
+    AudioSource backgroundAudio;
 
 
     void Awake()
@@ -18,6 +21,7 @@ public class GameOverManager : MonoBehaviour
         playerHealth = fpsController.GetComponent<PlayerHealth>();
         levelPass = fpsController.GetComponent<LevelPass>();
         timerManager = GetComponentInChildren<TimerManager>();
+        backgroundAudio = backgroundMusic.GetComponent<AudioSource>();
     }
 
 
@@ -25,6 +29,12 @@ public class GameOverManager : MonoBehaviour
     {
         if (playerHealth.currentHealth <= 0 || TimerManager.timeIsUp)
         {
+            if (TimerManager.timeIsUp)
+            {
+                backgroundAudio.clip = timeIsUpClip;
+                backgroundAudio.Play();
+            }
+
             anim.SetTrigger("GameOver");
 
             restartTimer += Time.deltaTime;
@@ -35,7 +45,7 @@ public class GameOverManager : MonoBehaviour
 
             if (restartTimer >= restartDelay)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene(0);
             }
         }
 
@@ -51,7 +61,7 @@ public class GameOverManager : MonoBehaviour
 
             if (restartTimer >= restartDelay)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene(0);
             }
 
         }

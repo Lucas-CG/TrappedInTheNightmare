@@ -11,25 +11,30 @@ public class PlayerHealth : MonoBehaviour
     public Slider healthSlider;
     public Image damageImage;
     public AudioClip deathClip;
-    public AudioClip hurtClip;
     public float flashSpeed = 5f;
     public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
+    public float heartbeatPeriod = 2f;
+    public GameObject backgroundMusic;
+    public GameObject heartbeatSource;
 
-
-    Animator anim;
-    AudioSource playerAudio;
-    PlayerShooting playerShooting;
+    //Animator anim;
+    //PlayerShooting playerShooting;
     UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsController;
     bool isDead;
     bool damaged;
+    float heartbeatTimer;
+    AudioSource backgroundAudio;
+    AudioSource heartbeatAudio;
 
 
     void Awake ()
     {
-        anim = GetComponent <Animator> ();
-        playerAudio = GetComponent <AudioSource> ();
+        //anim = GetComponent <Animator> ();
         
-        playerShooting = GetComponentInChildren <PlayerShooting> ();
+        backgroundAudio = backgroundMusic.GetComponent<AudioSource>();
+        heartbeatAudio = heartbeatSource.GetComponent<AudioSource>();
+
+        //playerShooting = GetComponentInChildren <PlayerShooting> ();
         fpsController = GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>();
         currentHealth = startingHealth;
     }
@@ -40,10 +45,23 @@ public class PlayerHealth : MonoBehaviour
         if(damaged)
         {
             damageImage.color = flashColour;
+
+            heartbeatAudio.Play();
         }
         else
         {
             damageImage.color = Color.Lerp (damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+
+            if (heartbeatTimer < heartbeatPeriod)
+            {
+                heartbeatTimer += Time.deltaTime;
+            }
+
+            else
+            {
+                heartbeatAudio.Stop();
+                heartbeatTimer = 0f;
+            }
         }
         damaged = false;
     }
@@ -57,10 +75,6 @@ public class PlayerHealth : MonoBehaviour
 
         healthSlider.value = currentHealth;
 
-        playerAudio.clip = hurtClip;
-
-        playerAudio.Play ();
-
         if(currentHealth <= 0 && !isDead)
         {
             Death ();
@@ -73,12 +87,12 @@ public class PlayerHealth : MonoBehaviour
     {
         isDead = true;
 
-        playerShooting.DisableEffects ();
+        //playerShooting.DisableEffects ();
+        
+        backgroundAudio.clip = deathClip;
+        backgroundAudio.Play ();
 
-        playerAudio.clip = deathClip;
-        playerAudio.Play ();
-
-        playerShooting.enabled = false;
+        //playerShooting.enabled = false;
         fpsController.enabled = false;
     }
 

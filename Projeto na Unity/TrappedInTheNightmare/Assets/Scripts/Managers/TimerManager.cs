@@ -19,7 +19,11 @@ public class TimerManager : MonoBehaviour {
     public int levelTimeMinutes;
     public int levelTimeSeconds;
 
+    static int allocatedTimeMinutes;
+    static int allocatedTimeSeconds;
 
+    static int remainingTimeMinutes;
+    static int remainingTimeSeconds;
 
     //o elemento da GUI
     Text timerText;
@@ -30,6 +34,9 @@ public class TimerManager : MonoBehaviour {
         timerText = GetComponent<Text>();
         remainingTime = levelTimeMinutes * 60f + levelTimeSeconds;
         timeIsUp = false;
+
+        allocatedTimeMinutes = levelTimeMinutes;
+        allocatedTimeSeconds = levelTimeSeconds;
 
         timerText.text = levelTimeMinutes.ToString() + ":" + levelTimeSeconds.ToString();
 
@@ -49,8 +56,8 @@ public class TimerManager : MonoBehaviour {
             }
             
             //FloorToInt dá a parte inteira do número decimal
-            int remainingTimeMinutes = Mathf.FloorToInt(remainingTime / 60);
-            int remainingTimeSeconds = Mathf.FloorToInt(remainingTime - (remainingTimeMinutes * 60));
+            remainingTimeMinutes = Mathf.FloorToInt(remainingTime / 60);
+            remainingTimeSeconds = Mathf.FloorToInt(remainingTime - (remainingTimeMinutes * 60));
 
             if (remainingTimeSeconds >= 10)
             {

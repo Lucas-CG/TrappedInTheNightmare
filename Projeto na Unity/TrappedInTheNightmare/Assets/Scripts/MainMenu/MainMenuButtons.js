@@ -5,3 +5,7 @@
 function QuitGame(){
 	Application.Quit();
 }
+
+function ReturnToHome(){
+	Application.LoadLevel(0);
+}

@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     public Transform p1;
     public Transform p2;
 
-    private Vector3 originPosition;
+    //private Vector3 originPosition;
     private bool chasing = false;
     Vector3 prevDestination = new Vector3();
 
@@ -26,7 +26,7 @@ public class EnemyMovement : MonoBehaviour
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        originPosition = transform.position;
+        //originPosition = transform.position;
         anim = GetComponent<Animator>();
 
         nav.SetDestination(p2.position);
