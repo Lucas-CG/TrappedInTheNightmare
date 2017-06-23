@@ -12,8 +12,8 @@ public class EnemyMovement : MonoBehaviour
     public float fieldOfViewRange; // in degrees (I use 68, this gives the enemy a vision of 136 degrees)
     public float minPlayerDetectDistance; // the distance the player can come behind the enemy without being deteacted
     public float rayRange; // distance the enemy can "see" in front of him
-    public Vector3 p1;
-    public Vector3 p2;
+    public Transform p1;
+    public Transform p2;
 
     private Vector3 originPosition;
     private bool chasing = false;
@@ -29,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
         originPosition = transform.position;
         anim = GetComponent<Animator>();
 
-        nav.SetDestination(p2);
+        nav.SetDestination(p2.position);
     }
 
 
@@ -54,10 +54,10 @@ public class EnemyMovement : MonoBehaviour
             }
             else if (Vector3.Distance(transform.position, nav.destination) <= 1)
             {
-                if (Vector3.Distance(nav.destination, p1) <= 1)
-                    nav.SetDestination(p2);
+                if (Vector3.Distance(nav.destination, p1.position) <= 1)
+                    nav.SetDestination(p2.position);
                 else
-                    nav.SetDestination(p1);
+                    nav.SetDestination(p1.position);
             }
             chasing = false;
             anim.SetTrigger("IsMoving");
