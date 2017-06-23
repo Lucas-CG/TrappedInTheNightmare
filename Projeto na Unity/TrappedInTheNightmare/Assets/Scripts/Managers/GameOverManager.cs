@@ -61,7 +61,7 @@ public class GameOverManager : MonoBehaviour
 
             if (restartTimer >= restartDelay)
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(2);
             }
 
         }

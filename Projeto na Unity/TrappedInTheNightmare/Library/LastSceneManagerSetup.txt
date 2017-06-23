@@ -3,8 +3,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/TITN Fase 1.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/ScoreScreen.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/ScoreScreen.unity
+  isLoaded: 0
+  isActive: 0

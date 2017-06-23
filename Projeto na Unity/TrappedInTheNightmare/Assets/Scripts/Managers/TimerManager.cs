@@ -19,11 +19,11 @@ public class TimerManager : MonoBehaviour {
     public int levelTimeMinutes;
     public int levelTimeSeconds;
 
-    static int allocatedTimeMinutes;
-    static int allocatedTimeSeconds;
+    public static int allocatedTimeMinutes;
+    public static int allocatedTimeSeconds;
 
-    static int remainingTimeMinutes;
-    static int remainingTimeSeconds;
+    public static int remainingTimeMinutes;
+    public static int remainingTimeSeconds;
 
     //o elemento da GUI
     Text timerText;

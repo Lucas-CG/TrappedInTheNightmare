@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TITN Fase 1.unity
     guid: 8afb318fb82c2dc4583748046b2c47a7
+  - enabled: 1
+    path: Assets/Scenes/ScoreScreen.unity
+    guid: 50e4fcad989e09d42844d8e89a1901fb
