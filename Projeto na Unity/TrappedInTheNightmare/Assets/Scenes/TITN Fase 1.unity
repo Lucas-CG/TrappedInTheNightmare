@@ -1325,6 +1325,11 @@ Prefab:
       propertyPath: deathClip
       value: 
       objectReference: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+    - target: {fileID: 114060553661151460, guid: 3a4452a6a5cf2a04080805439f37973f,
+        type: 2}
+      propertyPath: flashSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a4452a6a5cf2a04080805439f37973f, type: 2}
   m_IsPrefabParent: 0
@@ -4498,7 +4503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackDamage: 1
+  attackAnimationTime: 1
+  attackDamage: 40
   attackForce: 5
 --- !u!135 &572436274
 SphereCollider:
@@ -10242,7 +10248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1222383580
 MonoBehaviour:
   m_ObjectHideFlags: 0

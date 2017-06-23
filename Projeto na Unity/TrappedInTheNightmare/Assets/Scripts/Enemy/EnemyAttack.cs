@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyAttack : MonoBehaviour
 {
     public float timeBetweenAttacks = 0.5f;
+    public float attackAnimationTime = 1f;
     public int attackDamage = 10;
     public float attackForce = 5f;
 
@@ -14,6 +15,8 @@ public class EnemyAttack : MonoBehaviour
     EnemyHealth enemyHealth;
     bool playerInRange;
     float timer;
+    //
+    float animationTimer;
 
 
     void Awake ()
@@ -50,8 +53,20 @@ public class EnemyAttack : MonoBehaviour
 
         if(timer >= timeBetweenAttacks && playerInRange && enemyHealth.currentHealth > 0)
         {
-            Attack ();
+            //Attack ();
+
             anim.SetTrigger("Attack");
+
+
+            //
+            animationTimer += Time.deltaTime;
+
+            if (animationTimer >= attackAnimationTime)
+            {
+                Attack();
+            }
+
+
         }
 
         if (timer >= timeBetweenAttacks && !playerInRange && enemyHealth.currentHealth > 0)
@@ -69,6 +84,8 @@ public class EnemyAttack : MonoBehaviour
     void Attack ()
     {
         timer = 0f;
+        //
+        animationTimer = 0f;
 
         if(playerHealth.currentHealth > 0)
         {
