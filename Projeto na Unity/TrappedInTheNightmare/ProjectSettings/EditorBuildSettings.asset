@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: 
     guid: 70d56951299d2344f9ae160a9801989a
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: bd01a89e376e8dd4e914d2ca3d773e0f
+  - enabled: 1
     path: Assets/Scenes/TITN Fase 1.unity
     guid: 8afb318fb82c2dc4583748046b2c47a7
