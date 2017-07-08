@@ -22,7 +22,7 @@ public class CodeCatch : MonoBehaviour {
 
         if (other.gameObject.CompareTag("CodeDoor"))
         {
-            if (numbersCount > 0)
+            if (numbersCount == 4)
             {
                 other.gameObject.SetActive(false);
             }
