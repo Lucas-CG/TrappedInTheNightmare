@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &84869618
@@ -1413,7 +1413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &98294455
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &101509896
@@ -2208,7 +2208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &104844801
@@ -4845,7 +4845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &346646685
@@ -6986,7 +6986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!135 &572436274
@@ -8484,7 +8484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &740152131
@@ -10689,7 +10689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &896467249
@@ -11951,7 +11951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &988716662
@@ -12460,7 +12460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1027565339
@@ -13652,7 +13652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1134166533
@@ -14250,7 +14250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1154110667
@@ -15490,7 +15490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1211506588
@@ -16047,7 +16047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1233036313
@@ -16766,7 +16766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1291816831
@@ -17770,7 +17770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1339334054
@@ -18585,7 +18585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1389250708
@@ -19733,7 +19733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1450037748
@@ -20586,7 +20586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1518691978
@@ -23013,7 +23013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1767115669
@@ -23866,7 +23866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1812017407
@@ -25351,7 +25351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!195 &1940913151
@@ -25665,7 +25665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1946872201
@@ -26121,7 +26121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &1971867672
@@ -27046,7 +27046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.65
-  attackAnimationTime: 1
+  attackAnimationTime: 0.7
   attackDamage: 50
   attackForce: 5
 --- !u!114 &2076202563
