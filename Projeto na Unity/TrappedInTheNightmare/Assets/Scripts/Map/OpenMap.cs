@@ -4,29 +4,17 @@ using UnityEngine.UI;
 public class OpenMap : MonoBehaviour
 {
 
-    bool mapOpen = false;
-    RawImage rawimage;
-
-    void Awake ()
-    {
-        rawimage = GetComponent<RawImage>();
-    }
-
-
+    public RawImage rawimage;
+    float timer = 0f;
+ 
     void Update ()
     {
+        timer += Time.deltaTime;
 
-		if(Input.GetButton ("Submit") && !mapOpen)
+        if (Input.GetButton("Map") && timer > 0.2f)
         {
-            rawimage.enabled = true;
-            mapOpen = true;
-        }
-
-
-        if (Input.GetButton("Submit") && mapOpen)
-        {
-            rawimage.enabled = false;
-            mapOpen = false;
+            rawimage.enabled = !rawimage.enabled;
+            timer = 0f;
         }
 
     }
