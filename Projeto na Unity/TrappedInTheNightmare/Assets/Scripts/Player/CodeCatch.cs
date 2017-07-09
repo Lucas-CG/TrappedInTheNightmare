@@ -5,6 +5,7 @@ using UnityEngine;
 public class CodeCatch : MonoBehaviour {
 
     private int numbersCount;
+    private Quaternion originalRotationValue;
 
 	// Use this for initialization
 	void Awake () {
@@ -15,7 +16,20 @@ public class CodeCatch : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("CodeNumber"))
         {
-            other.gameObject.SetActive(false);
+            //other.gameObject.SetActive(false);
+
+            other.gameObject.GetComponent<MeshCollider>().enabled = false;
+            other.gameObject.GetComponent<Rotator>().enabled = false;
+
+            foreach (Renderer renderer in other.gameObject.GetComponentsInChildren<Renderer>())
+            {
+                print(renderer);
+                renderer.enabled = !renderer.enabled;
+
+            }
+
+            other.gameObject.transform.rotation = Quaternion.identity;
+
             numbersCount++;
 
         }

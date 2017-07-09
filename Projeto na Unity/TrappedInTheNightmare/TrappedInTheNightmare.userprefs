@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="TrappedInTheNightmare.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\LevelPass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CodeCatch.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemy\EnemyMovement.cs" Line="44" Column="54" />
+      <File FileName="Assets\Scripts\Enemy\EnemyMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\LevelPass.cs" Line="9" Column="1" />
+      <File FileName="Assets\Scripts\Player\CodeCatch.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
