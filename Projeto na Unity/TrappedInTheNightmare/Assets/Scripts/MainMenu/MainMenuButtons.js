@@ -1,11 +1,13 @@
-﻿function PlayGame(){
-	Application.LoadLevel(1);
-}
+﻿import UnityEngine.SceneManagement;
+
+function PlayGame(){
+	SceneManager.LoadScene(1);
+};
 
 function QuitGame(){
 	Application.Quit();
-}
+};
 
 function ReturnToHome(){
-	Application.LoadLevel(0);
-}
+	SceneManager.LoadScene(0);	
+};

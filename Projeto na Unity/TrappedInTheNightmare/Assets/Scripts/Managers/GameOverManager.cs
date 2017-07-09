@@ -43,6 +43,11 @@ public class GameOverManager : MonoBehaviour
 
             timerManager.enabled = false;
 
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.Confined;
+
+            Cursor.visible = true;
+
             if (restartTimer >= restartDelay)
             {
                 SceneManager.LoadScene(0);
@@ -58,6 +63,11 @@ public class GameOverManager : MonoBehaviour
             fpsController.enabled = false;
 
             timerManager.enabled = false;
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.Confined;
+
+            Cursor.visible = true;
 
             if (restartTimer >= restartDelay)
             {
