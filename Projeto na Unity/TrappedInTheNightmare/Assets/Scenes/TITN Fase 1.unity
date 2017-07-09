@@ -13201,7 +13201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a144c230d00f3454c8c889004adf70af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTimeMinutes: 5
+  levelTimeMinutes: 15
   levelTimeSeconds: 0
 --- !u!1 &1107717001
 GameObject:
