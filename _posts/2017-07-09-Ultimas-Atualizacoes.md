@@ -91,6 +91,8 @@ Para a entrega final, também removemos os ícones para os inimigos. Agora, um �
 
 Também foi adicionado um mapa completo do labirinto para a entrega final, com o mesmo esquema de cores. Ele exibe os mesmos pontos do minimapa. Esse é mais um recurso para ajudar o jogador a navegar pelo labirinto. Pode-se exibir ou retirar o mapa completo usando-se a tecla "M".
 
+{% include image name="mapa.png" caption="Mapa Completo." %}
+
 ### Tempo Limite
 
 Um relógio indicando o tempo restante foi adicionado.
