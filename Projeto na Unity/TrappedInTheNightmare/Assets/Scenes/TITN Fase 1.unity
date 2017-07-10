@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.015
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276813, g: 0.21589187, b: 0.29782563, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -51,7 +51,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 8
@@ -152,7 +152,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -166,7 +166,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -217,7 +217,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -231,7 +231,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -282,7 +282,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -296,7 +296,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -347,7 +347,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -361,7 +361,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -418,7 +418,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -432,7 +432,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -483,7 +483,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -497,7 +497,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -635,7 +635,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -649,7 +649,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -700,7 +700,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -714,7 +714,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -765,7 +765,7 @@ Light:
   m_SpotAngle: 126
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -779,7 +779,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -830,7 +830,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -844,7 +844,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1221,7 +1221,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1235,7 +1235,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -1612,7 +1612,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1626,7 +1626,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2395,7 +2395,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2409,7 +2409,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2460,7 +2460,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2474,7 +2474,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2699,7 +2699,7 @@ Light:
   m_SpotAngle: 101
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2713,7 +2713,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2764,7 +2764,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2778,7 +2778,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -2829,7 +2829,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2843,7 +2843,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3064,7 +3064,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3078,7 +3078,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3267,7 +3267,7 @@ Light:
   m_SpotAngle: 119
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3281,7 +3281,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3365,7 +3365,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3379,7 +3379,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3430,7 +3430,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3444,7 +3444,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3495,7 +3495,7 @@ Light:
   m_SpotAngle: 125
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3509,7 +3509,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3560,7 +3560,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3574,7 +3574,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3625,7 +3625,7 @@ Light:
   m_SpotAngle: 150
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3639,7 +3639,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3690,7 +3690,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3704,7 +3704,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3755,7 +3755,7 @@ Light:
   m_SpotAngle: 106.942986
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3769,7 +3769,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3842,7 +3842,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3856,7 +3856,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -3907,7 +3907,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3921,7 +3921,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4199,7 +4199,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4213,7 +4213,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4264,7 +4264,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4278,7 +4278,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4329,7 +4329,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4343,7 +4343,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4394,7 +4394,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4408,7 +4408,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4459,7 +4459,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4473,7 +4473,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4524,7 +4524,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4538,7 +4538,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4589,7 +4589,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4603,7 +4603,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4654,7 +4654,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4668,7 +4668,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -4719,7 +4719,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4733,7 +4733,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5143,7 +5143,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5157,7 +5157,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5208,7 +5208,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5222,7 +5222,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5301,7 +5301,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5315,7 +5315,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5394,7 +5394,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5408,7 +5408,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5459,7 +5459,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5473,7 +5473,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5611,7 +5611,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5625,7 +5625,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5748,7 +5748,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5762,7 +5762,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5813,7 +5813,7 @@ Light:
   m_SpotAngle: 139.5121
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5827,7 +5827,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -5965,7 +5965,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5979,7 +5979,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6369,7 +6369,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6383,7 +6383,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6462,7 +6462,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6476,7 +6476,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6527,7 +6527,7 @@ Light:
   m_SpotAngle: 117
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6541,7 +6541,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6592,7 +6592,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6606,7 +6606,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6657,7 +6657,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6671,7 +6671,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6722,7 +6722,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6736,7 +6736,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6815,7 +6815,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6829,7 +6829,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -6880,7 +6880,7 @@ Light:
   m_SpotAngle: 115
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6894,7 +6894,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7310,7 +7310,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7324,7 +7324,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7403,7 +7403,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7417,7 +7417,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7468,7 +7468,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7482,7 +7482,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7533,7 +7533,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7547,7 +7547,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7598,7 +7598,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7612,7 +7612,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7663,7 +7663,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7677,7 +7677,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7728,7 +7728,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7742,7 +7742,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7821,7 +7821,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7835,7 +7835,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -7973,7 +7973,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7987,7 +7987,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8038,7 +8038,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8052,7 +8052,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8103,7 +8103,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8117,7 +8117,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8168,7 +8168,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8182,7 +8182,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8233,7 +8233,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8247,7 +8247,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8298,7 +8298,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8312,7 +8312,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8363,7 +8363,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8377,7 +8377,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8782,7 +8782,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8796,7 +8796,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8847,7 +8847,7 @@ Light:
   m_SpotAngle: 111
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8861,7 +8861,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -8940,7 +8940,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8954,7 +8954,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9154,7 +9154,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9168,7 +9168,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9219,7 +9219,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9233,7 +9233,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9284,7 +9284,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9298,7 +9298,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9349,7 +9349,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9363,7 +9363,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9414,7 +9414,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9428,7 +9428,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9479,7 +9479,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9493,7 +9493,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9544,7 +9544,7 @@ Light:
   m_SpotAngle: 135
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9558,7 +9558,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9623,7 +9623,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9674,7 +9674,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9688,7 +9688,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9739,7 +9739,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9753,7 +9753,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -9874,7 +9874,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9888,7 +9888,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10026,7 +10026,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10040,7 +10040,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10091,7 +10091,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10105,7 +10105,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10156,7 +10156,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10170,7 +10170,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10221,7 +10221,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10235,7 +10235,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10286,7 +10286,7 @@ Light:
   m_SpotAngle: 131.22772
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10300,7 +10300,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10351,7 +10351,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10365,7 +10365,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10416,7 +10416,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10430,7 +10430,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10481,7 +10481,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10495,7 +10495,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10546,7 +10546,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10560,7 +10560,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -10937,7 +10937,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10951,7 +10951,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11030,7 +11030,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11044,7 +11044,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11095,7 +11095,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11109,7 +11109,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11160,7 +11160,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11174,7 +11174,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11330,7 +11330,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11344,7 +11344,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11395,7 +11395,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11409,7 +11409,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11460,7 +11460,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11474,7 +11474,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11525,7 +11525,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11539,7 +11539,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11590,7 +11590,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11604,7 +11604,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11655,7 +11655,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11669,7 +11669,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -11796,7 +11796,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11810,7 +11810,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12187,7 +12187,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12201,7 +12201,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12252,7 +12252,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12266,7 +12266,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12317,7 +12317,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12331,7 +12331,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12708,7 +12708,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12722,7 +12722,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -12909,7 +12909,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12923,7 +12923,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13094,7 +13094,7 @@ Light:
   m_SpotAngle: 147
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13108,7 +13108,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13247,7 +13247,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13261,7 +13261,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13340,7 +13340,7 @@ Light:
   m_SpotAngle: 101
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13354,7 +13354,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13405,7 +13405,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13419,7 +13419,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13470,7 +13470,7 @@ Light:
   m_SpotAngle: 122
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13484,7 +13484,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13622,7 +13622,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13636,7 +13636,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -13687,7 +13687,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13701,7 +13701,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14078,7 +14078,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14092,7 +14092,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14143,7 +14143,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14157,7 +14157,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14208,7 +14208,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14222,7 +14222,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14273,7 +14273,7 @@ Light:
   m_SpotAngle: 124
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14287,7 +14287,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14692,7 +14692,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14706,7 +14706,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14757,7 +14757,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14771,7 +14771,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -14822,7 +14822,7 @@ Light:
   m_SpotAngle: 128
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14836,7 +14836,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15058,7 +15058,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15072,7 +15072,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15188,7 +15188,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15202,7 +15202,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15253,7 +15253,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15267,7 +15267,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15318,7 +15318,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15332,7 +15332,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15383,7 +15383,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15397,7 +15397,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15448,7 +15448,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15462,7 +15462,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -15513,7 +15513,7 @@ Light:
   m_SpotAngle: 123
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15527,7 +15527,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -16070,7 +16070,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16084,7 +16084,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -16519,7 +16519,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16533,7 +16533,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -16584,7 +16584,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16598,7 +16598,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -16736,7 +16736,7 @@ Light:
   m_SpotAngle: 135
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16750,7 +16750,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -16801,7 +16801,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16815,7 +16815,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17192,7 +17192,7 @@ Light:
   m_SpotAngle: 109
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17206,7 +17206,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17257,7 +17257,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17271,7 +17271,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17431,7 +17431,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17445,7 +17445,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17496,7 +17496,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17510,7 +17510,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17561,7 +17561,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17575,7 +17575,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17626,7 +17626,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17640,7 +17640,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -17691,7 +17691,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17705,7 +17705,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18196,7 +18196,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18210,7 +18210,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18261,7 +18261,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18275,7 +18275,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18326,7 +18326,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18340,7 +18340,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18391,7 +18391,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18405,7 +18405,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18456,7 +18456,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18470,7 +18470,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18521,7 +18521,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18535,7 +18535,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -18999,7 +18999,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19013,7 +19013,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19143,7 +19143,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19157,7 +19157,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19208,7 +19208,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19222,7 +19222,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19273,7 +19273,7 @@ Light:
   m_SpotAngle: 104
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19287,7 +19287,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19338,7 +19338,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19352,7 +19352,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19403,7 +19403,7 @@ Light:
   m_SpotAngle: 115
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19417,7 +19417,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19468,7 +19468,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19482,7 +19482,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19533,7 +19533,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19547,7 +19547,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -19598,7 +19598,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19612,7 +19612,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20163,7 +20163,7 @@ Light:
   m_SpotAngle: 101
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20177,7 +20177,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20228,7 +20228,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20242,7 +20242,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20299,7 +20299,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20313,7 +20313,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20430,7 +20430,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20444,7 +20444,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20495,7 +20495,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20509,7 +20509,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20560,7 +20560,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20574,7 +20574,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -20625,7 +20625,7 @@ Light:
   m_SpotAngle: 142
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20639,7 +20639,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21044,7 +21044,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21058,7 +21058,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21171,7 +21171,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21185,7 +21185,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21236,7 +21236,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21250,7 +21250,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21301,7 +21301,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21315,7 +21315,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21366,7 +21366,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21380,7 +21380,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21431,7 +21431,7 @@ Light:
   m_SpotAngle: 107
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21445,7 +21445,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21496,7 +21496,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21510,7 +21510,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21864,7 +21864,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21878,7 +21878,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -21929,7 +21929,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21943,7 +21943,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22247,7 +22247,7 @@ Light:
   m_SpotAngle: 153
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22261,7 +22261,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22312,7 +22312,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22326,7 +22326,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22377,7 +22377,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22391,7 +22391,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22442,7 +22442,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22456,7 +22456,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22507,7 +22507,7 @@ Light:
   m_SpotAngle: 123
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22521,7 +22521,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22572,7 +22572,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22586,7 +22586,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22637,7 +22637,7 @@ Light:
   m_SpotAngle: 115
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22651,7 +22651,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22730,7 +22730,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22744,7 +22744,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -22882,7 +22882,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22896,7 +22896,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23012,7 +23012,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1740212233}
   m_LocalRotation: {x: -0, y: 0.022076612, z: -0, w: 0.9997563}
-  m_LocalPosition: {x: -7.8, y: 14.4, z: -162.47}
+  m_LocalPosition: {x: -7.8, y: 14.4, z: -158.74}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23149,7 +23149,7 @@ Light:
   m_SpotAngle: 125
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23163,7 +23163,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23214,7 +23214,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23228,7 +23228,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23633,7 +23633,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23647,7 +23647,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23785,7 +23785,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23799,7 +23799,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23850,7 +23850,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23864,7 +23864,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -23915,7 +23915,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23929,7 +23929,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24067,7 +24067,7 @@ Light:
   m_SpotAngle: 122.517105
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24081,7 +24081,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24458,7 +24458,7 @@ Light:
   m_SpotAngle: 110
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24472,7 +24472,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24523,7 +24523,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24537,7 +24537,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24616,7 +24616,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24630,7 +24630,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24722,7 +24722,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24736,7 +24736,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24874,7 +24874,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24888,7 +24888,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -24939,7 +24939,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24953,7 +24953,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -25004,7 +25004,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25018,7 +25018,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -25222,7 +25222,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25236,7 +25236,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -25528,7 +25528,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25542,7 +25542,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -25593,7 +25593,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -25607,7 +25607,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -26310,7 +26310,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -26324,7 +26324,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -26375,7 +26375,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -26389,7 +26389,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -26853,7 +26853,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -26867,7 +26867,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27094,7 +27094,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27108,7 +27108,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27230,7 +27230,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27244,7 +27244,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27295,7 +27295,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27309,7 +27309,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27691,7 +27691,7 @@ Light:
   m_SpotAngle: 140
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27705,7 +27705,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27756,7 +27756,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27770,7 +27770,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27821,7 +27821,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27835,7 +27835,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27886,7 +27886,7 @@ Light:
   m_SpotAngle: 130
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27900,7 +27900,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -27951,7 +27951,7 @@ Light:
   m_SpotAngle: 120
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27965,7 +27965,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -28016,7 +28016,7 @@ Light:
   m_SpotAngle: 123
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -28030,7 +28030,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -28081,7 +28081,7 @@ Light:
   m_SpotAngle: 130.67249
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -28095,7 +28095,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294963199
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
