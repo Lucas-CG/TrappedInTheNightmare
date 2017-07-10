@@ -52,6 +52,8 @@ O monstro não apresenta nenhuma dica visual ou sonora, mas, em compensação, e
 
 Foi criada uma nova tela de pontuação, para estimular jogadores a completarem o labirinto mais rápido. A pontuação calculada é 10000 vezes a fração de tempo restante.
 
+{% include image name="vitoria.png" caption="" %}
+
 Foi adicionado um limite de tempo de 15 minutos para terminar a fase. Se o jogador morrer ou não sair do labirinto a tempo...
 
 {% include image name="game_over.png" caption="" %}
