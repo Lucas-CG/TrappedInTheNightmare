@@ -50,7 +50,7 @@ O monstro não apresenta nenhuma dica visual ou sonora, mas, em compensação, e
 
 ## Objetivos
 
-Foi criada uma nova tela de pontuação, para estimular jogadores a completarem o labirinto mais rápido. A pontuação calculada é 10000 vezes a fração de tempo restante.
+Foi criada uma nova tela de pontuação, para estimular jogadores a completarem o labirinto mais rápido. A pontuação calculada é 10000 vezes a fração de tempo restante. Também é atribuído um conceito, que depende dessa pontuação.
 
 {% include image name="vitoria.png" caption="" %}
 
