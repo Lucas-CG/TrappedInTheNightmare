@@ -66,9 +66,9 @@ O número do labirinto foi substituído por quatro chaves espalhadas pelo labiri
 
 A interface foi refeita para a apresentação, e ajustada novamente na entrega final. É possível ver a evolução da aparência do jogo observando as três imagens abaixo.:
 
-{% include image name="interface_grafica.png" caption="Interface gráfica do protótipo." %}
-{% include image name="interface_grafica_apresentacao.png" caption="Interface gráfica da apresentação." %}
-{% include image name="monstro.png" caption="Interface gráfica da versão final." %}
+{% include image name="interface_grafica.png" caption="Protótipo." %}
+{% include image name="interface_grafica_apresentacao.png" caption="Apresentação final." %}
+{% include image name="monstro.png" caption="Versão final." %}
 
 ### Barra de Vida
 
