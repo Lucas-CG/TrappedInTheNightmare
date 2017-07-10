@@ -29,7 +29,7 @@ A fonte usada nos textos do jogo e do trailer e no título desse *blog* é a *Yo
 
 ## Modelo 3D do Inimigo
 
-O modelo 3D do monstro que usamos foi obtido no site *cgtrader*. Ele possui uma licença *royalty-free*.
+O modelo 3D do monstro que usamos foi obtido no site *cgtrader*, na URL https://www.cgtrader.com/free-3d-models/character/fantasy/monster-swamp-reprilian. Ele possui uma licença *royalty-free*.
 
 ## Gerador de mapas de labirintos
 
@@ -39,6 +39,6 @@ Para gerar o mapa do nosso labirinto, usamos o site *MazeGenerator*, que gera um
 
 Usamos como motor de desenvolvimento de jogos a *Unity*, em sua versão gratuita.
 
-## Modelagem 3D
+## *Software* de Modelagem 3D
 
 Todos os modelos 3D, com exceção do modelo do monstro, foram modelados usando-se o *software* Maya, da *Autodesk*.
