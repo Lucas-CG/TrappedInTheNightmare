@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+@font-face { font-family: You-Murderer; src: url('../youmurdererbb_reg.ttf'); } 
+
 body {
   background-color: #000;
   padding:50px;
