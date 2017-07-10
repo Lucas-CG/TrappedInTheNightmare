@@ -62,7 +62,7 @@ O número do labirinto foi substituído por quatro chaves espalhadas pelo labiri
 
 ## Interface Gráfica
 
-A interface foi refeita para a apresentação, e ajustada novamente na entrega final. É possível ver as diferenças observando as três imagens abaixo:
+A interface foi refeita para a apresentação, e ajustada novamente na entrega final. É possível ver a evolução da aparência do jogo observando as três imagens abaixo.:
 
 {% include image name="interface_grafica.png" caption="Interface gráfica do protótipo." %}
 {% include image name="interface_grafica_apresentacao.png" caption="Interface gráfica da apresentação." %}
