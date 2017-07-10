@@ -4,7 +4,7 @@ categories: [entrega_final]
 permalink: /:year/:month/:day/Ultimas-Atualizacoes.html
 ---
 
-Esse post é sobre a versão apresentada no dia 23/6/17 em sala e sobre a entrega final, entregue dia 9/7/17, que recebeu alguns ajustes extras. Várias mudanças foram feitas do último post para agora, e é possível vê-las no *trailer* cujo link está abaixo:
+Esse post é sobre a versão apresentada no dia 23/6/17 em sala e sobre a entrega final, entregue dia 9/7/17, que recebeu alguns ajustes extras. Várias mudanças foram feitas do último post para agora, e é possível vê-las no *trailer* cujo *link* está ao lado.
 
 
 ## Luzes
@@ -66,7 +66,7 @@ A interface foi refeita para a apresentação, e ajustada novamente na entrega f
 
 {% include image name="interface_grafica.png" caption="Interface gráfica do protótipo." %}
 {% include image name="interface_grafica_apresentacao.png" caption="Interface gráfica da apresentação." %}
-{% include image name="interface_grafica_final.png" caption="Interface gráfica da versão final." %}
+{% include image name="monstro.png" caption="Interface gráfica da versão final." %}
 
 ### Barra de Vida
 
